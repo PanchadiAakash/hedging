@@ -1,0 +1,18 @@
+# --- Core framework ---
+streamlit==1.39.0
+
+# --- Data handling ---
+pandas==2.2.3
+numpy==1.26.4
+
+# --- Visualization ---
+altair==5.3.0
+
+# --- Database connectivity ---
+psycopg2-binary==2.9.9
+
+# --- HTTP requests ---
+requests==2.32.3
+
+# --- Typing support (for safety) ---
+typing-extensions==4.12.2
