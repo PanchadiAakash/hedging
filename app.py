@@ -1481,7 +1481,7 @@ def render_create_paper_buy(MCX_PRODUCTS):
         customer_name = st.selectbox(
                         "Customer Name",
                         options=customer_name_list,
-                        index=None,  # So nothing is preselected
+                        index=0,  # So nothing is preselected
                         placeholder="Enter customer name",
                         key="pb_customer_input"
                     )
