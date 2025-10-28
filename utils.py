@@ -1,4 +1,4 @@
-import psycopg2
+import pg8000 as psycopg2
 import config
 import pandas as pd
 import requests
