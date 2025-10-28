@@ -855,7 +855,7 @@ def render_invoice_tagging_tab(q1,q2,q3):
         st.dataframe(invoice_df_info[['invoicenumber','invoicedate','customer_name', 'product','item_name','open_qty','item_unit','open_qty_value']], hide_index=True) 
     
     with col2:
-        st.dataframe(available_buys_info[['position_id','product', 'artefact_status','customer_name', 'invoice_open_quantity','price_rate','expiry_date']], width='stretch',hide_index=True)
+        st.dataframe(available_buys_info[['position_id','product', 'artefact_status','customer_name', 'invoice_open_quantity','price_rate','expiry_date']],hide_index=True)
     
     col1,col2 = st.columns([1,1])
     with col1:
@@ -1123,7 +1123,7 @@ def render_bill_tagging_tab(q1,q2,q3):
         st.dataframe(bill_df_info[['billnumber','billdate','supplier_name', 'product','item_name','open_qty','item_unit','open_qty_value']], hide_index=True) 
     
     with col2:
-        st.dataframe(available_sells_info[['position_id','product', 'artefact_status','supplier_name','bill_open_quantity','price_rate','expiry_date']], width='stretch',hide_index=True)
+        st.dataframe(available_sells_info[['position_id','product', 'artefact_status','supplier_name','bill_open_quantity','price_rate','expiry_date']],hide_index=True)
     
     col1,col2 = st.columns([1,1])
     with col1:
