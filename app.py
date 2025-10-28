@@ -1318,7 +1318,8 @@ def render_create_paper_sell(MCX_PRODUCTS):
         supplier_name = st.selectbox(
                         "Supplier Name",
                         options=supplier_name_list,
-                        index=None,  # So nothing is preselected
+                        # index=None,  # So nothing is preselected
+                        index = 0,
                         placeholder="Enter supplier name",
                         key="ps_supplier_input"
                     )
